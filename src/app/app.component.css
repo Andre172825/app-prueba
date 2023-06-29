@@ -1,0 +1,105 @@
+.nabvar{
+    margin-bottom: 0;
+}
+.black-toolbar{
+    background-color:black;
+    border-radius: 15px  15px 0 0;
+    color:aliceblue
+   
+}
+img{
+    padding-top: 0.3vw;
+    width: 6vw;
+    height: auto;
+}
+ input {
+    background-color: rgb(74, 72, 72);
+    color: white;
+    width: 60%;
+    height: 1.5vw;
+    margin-left: 35px;
+    font-size: 1vw;   
+    border-radius: 10px 10px;
+    padding-bottom: 10px;
+  
+ }
+  .social-list {
+    width: 30%;
+    display: flex;
+    list-style: none;
+   
+  }
+  .social-list li a {
+    margin-left: 4vw;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: aliceblue;    
+  }
+  
+  .menu{
+    width: 100%; 
+     
+    left: 0;
+    right: 0;
+   
+    
+  }
+.list ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(158, 152, 152);    
+    list-style: none;
+    margin-top:0;
+    padding: 0;
+
+}   
+  
+  .list ul li a {
+    width: 10vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;      
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;   
+    font-size: 1vw;
+  }
+
+  .list ul li a:hover {
+    color: aliceblue;
+    background-color: rgb(64, 61, 61);
+   
+  }
+  .mat-grid-tile {
+    background: lightblue;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .information {
+    width: 20%;
+    background-color: rgba(209, 199, 199, 0.716);   
+  }
+  .article {
+    width: 60%;
+  }
+  .access{
+   
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .auriculares{
+    width: 35vw;
+  }
+  .card {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+ 
+  
