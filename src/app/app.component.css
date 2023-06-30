@@ -1,5 +1,5 @@
 .nabvar{
-    margin-bottom: 0;
+   margin-bottom: 0;
 }
 .black-toolbar{
     background-color:black;
@@ -28,6 +28,7 @@ img{
     display: flex;
     list-style: none;
    
+   
   }
   .social-list li a {
     margin-left: 4vw;
@@ -51,6 +52,7 @@ img{
     background-color: rgb(158, 152, 152);    
     list-style: none;
     margin-top:0;
+    margin-bottom: 0;
     padding: 0;
 
 }   
@@ -68,38 +70,173 @@ img{
 
   .list ul li a:hover {
     color: aliceblue;
-    background-color: rgb(64, 61, 61);
-   
-  }
-  .mat-grid-tile {
-    background: lightblue;
-  }
-  .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .information {
-    width: 20%;
-    background-color: rgba(209, 199, 199, 0.716);   
+    background-color: rgb(64, 61, 61);   
   }
   .article {
     width: 60%;
-  }
-  .access{
-   
-    display: flex;
-    justify-content: space-around;
+    height:auto;
+    background-color: rgba(209, 199, 199, 0.716);
+    margin-bottom: 45px;
+    padding-left: 3vw; 
+    padding-top: 2vw;
+    padding-bottom: 4vw;
   }
 
-  .auriculares{
-    width: 35vw;
+  h4 {
+    font-size: 0.9vw;
   }
+  .money{
+    font-size: 0.6vw;
+  }
+  
+  .container {
+    width: 87%;
+    height: auto;
+    margin-inline: auto;
+    font-size: 0.5vw;    
+  }
+  .information {
+    width: 20%;   
+  }
+  .money{
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+  .money span{
+    color: red;
+    font-size: 0.7vw;
+    text-decoration-line: line-through;
+    margin-bottom: 15px;   
+  }
+  .technical{
+    margin-top: 1vw;
+  }
+
+  .technical p{
+    margin-top: 1vw;
+    font-size: 0.7vw;
+  }
+
+  .access{       
+    display: flex;      
+  }
+
+  .auriculares img{
+    width: 25vw;    
+  }
+
+  .metric{
+    position: absolute;
+    top: 2.5vw;
+    left: 2vw;
+    z-index: auto;
+    color:aliceblue ; 
+    cursor: pointer;  
+  }
+
+  .N1{
+    color: red;
+    margin-left: 0.5vw;
+  }
+
+  .N2{
+    color: black;
+    margin-left: 0.5vw;
+  }
+
+   .N3{
+    color: blue;
+    margin-left: 0.5vw;
+  }
+
+  .favorite{    
+    position: relative;
+    left: 320px;
+    z-index: auto;
+    cursor: pointer;
+  }
+
+  .star{
+    position: absolute;
+    top: 24vw;
+    left: 19vw;
+    z-index: auto;
+    color: gold;
+    font-size: 48px;
+    cursor: pointer;
+    }
+
   .card {
-    display: flex;
-    justify-content: space-around;
-    
+    display: flex;    
+    justify-content:space-evenly; 
+    flex: 3 1 auto; 
+    text-align: center;
+    width: 10vw;       
   }
-  
  
+  .photo img {
+    width: 6vw;
+    border: 2px solid  rgba(209, 199, 199, 0.716);
+    background-color: rgba(209, 199, 199, 0.716);
+    border-radius: 13px 13px;
+    box-shadow: 0 2px 3px 2px   rgba(76, 75, 75, 0.716);
+    margin-bottom: 3px;
+    padding-top: 2px;
+  }
+
+  .photo img:hover {
+    background-color: rgba(63, 144, 230, 0.675);
+  }
+
+  .example-card{
+    background-color: rgba(209, 199, 199, 0.716);
+    border-radius: 13px ;
+    box-shadow: 0 2px 3px 2px   rgba(76, 75, 75, 0.716);
+ }
+
+  .example-card:hover{
+    background-color:  rgba(194, 190, 190, 0.716);
+ }
+
+ .mat-grid-tile {
+  background: lightgrey; 
+  border:  lightgrey;
+}
+
+.activite{
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 0.7vw;  
+}
+
+.footer div{
+  width: 22%; 
+}
+
+.footer strong{
+  font-size: 1.3vw;
+}
+
+.redes p a{
+  color: aliceblue;
   
+  
+}
+.redes{
+  width: 100%;
+}
+
+.redes span a {
+  color: aliceblue;
+  
+  margin-right: 0;
+  
+}
+.redes span a .mat-icom{
+  padding-right: 0.4vw;
+}
+

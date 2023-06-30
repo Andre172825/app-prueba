@@ -14,10 +14,10 @@
       <input type="text" placeholder="¿Qué estas buscando?" />
       <ul class="social-list">
         <li>
-          <a href="#"><mat-icon>notifications</mat-icon></a>
+          <a href="#"><mat-icon>person</mat-icon></a>
         </li>
         <li>
-          <a href="#"> <mat-icon>menu</mat-icon></a>
+          <a href="#"> <mat-icon>notifications</mat-icon></a>
         </li>
         <li>
           <a href="#"> <mat-icon>shopping_cart</mat-icon></a>
@@ -42,61 +42,190 @@
   </div>
 </nav>
 <section class="container">
-  <article class="information">
-    <h4>
-      <strong>
-        Auriculares Gamer HyperX <br />Cloud StingerCore 40mm
-        <br />3.5mm</strong
-      >
-    </h4>
-    <div class="money">
-      <span>S/. 319.99</span><br />
-      <span>*No incluye envio</span> <br /><span>*No incluye IGV</span>
-    </div>
-    <span>S/. 379.99</span>
-    <div>
-      <button type="button"></button>
-      <button type="button"></button>
-    </div>
-    <div class="technical">
-      <span>logo Hiper</span>
-      <p><strong>Descripción </strong></p>
-      <span>Altavoces</span><br /><span>Diámetro de altavoz 60mm</span><br />
-      <span>Iman: Neodimio</span><br /><span>Estructura: Cerrada</span><br />
-      <span>Respuesta en frecuencia: 5 Hz a 35 kHz</span><br />
-      <span>Impedancia nominal: 40 ohmios ± 6 ohmios</span><br />
-      <span>Sencibilidad(SPL): 98 dB ± 3 dB a 1 kHz</span><br />
-      <span>THD < 1% a 1kHz</span><br />
-      <span>Potencia de alimentación: 15 a 150 mW</span><br />
-      <span>Aislamiento aústico pasivo: 24 Db</span><br /><br />
-      <span>Micrófono</span><br /><span>Diámetro de capsula: 6 mm</span><br />
-      <span>Transductor: Condensador de electreto</span><br />
-      <span>Patrón polar: Super cardiode</span><br />
-      <span>Respuesta de frecuencia: 40 Hz a 25 kHz</span><br />
-      <span>Impedancia niminal: < = 2.0 k ohmios </span><br />
-      <span>Sensibilidad(SPL): -48 dB ± 3 dB a 1 kHz</span><br />
-      <span>THD < 1% a 1kHz</span><br />
-      <span>Sistema: Gradiente biométrico.</span><br />
-      <span>Máximo nivel de presión sonora. 105 dB</span>
-    </div>
-  </article>
-  <article class="article">
-    <div class="access">
-      <div>
-        <img src="./assets/images/hprx1.png" alt="" class="auriculares" />
-      </div>
+  <mat-grid-list cols="3" rowHeight="3:1">
+    <mat-grid-tile colspan="1" rowspan="5">
+      <article class="article">
+        <h4>
+          <strong>
+            Auriculares Gamer HyperX <br />Cloud StingerCore 40mm
+            <br />3.5mm</strong
+          >
+        </h4>
+        <div>
+          <span class="money">S/. 319.99 <span>S/. 379.99</span></span
+          ><br />
+          <span>*No incluye envio</span> <br /><span>*No incluye IGV</span>
+        </div>
 
-      <div class="fhoto">
-        <div><img src="./assets/images/hprx1.png" alt="" /></div>
-        <div><img src="./assets/images/hprx2.png" alt="" /></div>
-        <div><img src="./assets/images/hprx3.png" alt="" /></div>
-        <div><img src="./assets/images/hprx3.png" alt="" /></div>
+        <section>
+          <div class="example-label"></div>
+          <div class="example-button-row">
+            <button mat-raised-button color="primary">
+              Añadir <mat-icon>date_range</mat-icon>
+            </button>
+            <button mat-raised-button color="accent">
+              <mat-icon>shopping_cart</mat-icon> Comprar
+            </button>
+          </div>
+        </section>
+        <div class="technical">
+          <span
+            ><img src="./assets/images/logo-HIPER.png" alt="logo Hiper" />
+          </span>
+          <p><strong>Descripción </strong></p>
+          <span>Altavoces</span><br /><span>Diámetro de altavoz 60mm</span
+          ><br />
+          <span>Iman: Neodimio</span><br /><span>Estructura: Cerrada</span
+          ><br />
+          <span>Respuesta en frecuencia: 5 Hz a 35 kHz</span><br />
+          <span>Impedancia nominal: 40 ohmios ± 6 ohmios</span><br />
+          <span>Sencibilidad(SPL): 98 dB ± 3 dB a 1 kHz</span><br />
+          <span>THD < 1% a 1kHz</span><br />
+          <span>Potencia de alimentación: 15 a 150 mW</span><br />
+          <span>Aislamiento aústico pasivo: 24 Db</span><br /><br />
+          <span>Micrófono</span><br /><span>Diámetro de capsula: 6 mm</span
+          ><br />
+          <span>Transductor: Condensador de electreto</span><br />
+          <span>Patrón polar: Super cardiode</span><br />
+          <span>Respuesta de frecuencia: 40 Hz a 25 kHz</span><br />
+          <span>Impedancia niminal: < = 2.0 k ohmios </span><br />
+          <span>Sensibilidad(SPL): -48 dB ± 3 dB a 1 kHz</span><br />
+          <span>THD < 1% a 1kHz</span><br />
+          <span>Sistema: Gradiente biométrico.</span><br />
+          <span>Máximo nivel de presión sonora. 105 dB</span>
+        </div>
+      </article>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="3">
+      <div class="access">
+        <div class="metric">
+          <span><mat-icon>lens</mat-icon></span>
+          <span class="N1"><mat-icon>circle</mat-icon></span>
+          <span class="N2"><mat-icon>circle</mat-icon></span>
+          <span class="N3"><mat-icon>circle</mat-icon></span>
+          <span class="favorite"><mat-icon>favorite</mat-icon></span>
+        </div>
+        <div class="auriculares">
+          <img src="./assets/images/hprx1.png" alt="" />
+        </div>
+        <div class="star">
+          <span><mat-icon>grade</mat-icon></span>
+          <span><mat-icon>star</mat-icon></span>
+          <span><mat-icon>star</mat-icon></span>
+          <span><mat-icon>star</mat-icon></span>
+          <span><mat-icon>star</mat-icon></span>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div><img src="./assets/images/ms.png" alt="" /></div>
-      <div><img src="./assets/images/ms.png" alt="" /></div>
-      <div><img src="./assets/images/ms.png" alt="" /></div>
-    </div>
-  </article>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="3">
+      <div class="photo">
+        <div>
+          <a href="#"><img src="./assets/images/hprx1.png" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="./assets/images/hprx2.png" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="./assets/images/hprx3.png" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="./assets/images/hprx1.png" alt="" /></a>
+        </div>
+      </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="2">
+      <div class="card">
+        <div>
+          <mat-card class="example-card">
+            <img mat-card-image src="./assets/images/ms.png" alt="" />
+            <mat-card-content>
+              <p>
+                <strong>MAUSE GAMER CORSAIR</strong><br />
+                IRONCLAW RGB USB 18K DPI <br />
+                S/. 79.99
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="primary">AÑADIR</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+        <div>
+          <mat-card class="example-card">
+            <img mat-card-image src="./assets/images/ms.png" alt="" />
+            <mat-card-content>
+              <p>
+                <strong>MAUSE GAMER CORSAIR</strong><br />
+                IRONCLAW RGB USB 18K DPI <br />
+                S/. 79.99
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="primary">AÑADIR</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+        <div>
+          <mat-card class="example-card">
+            <img mat-card-image src="./assets/images/ms.png" alt="" />
+            <mat-card-content>
+              <p>
+                <strong>MAUSE GAMER CORSAIR</strong><br />
+                IRONCLAW RGB USB 18K DPI <br />
+                S/. 79.99
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="primary">AÑADIR</button>
+            </mat-card-actions>
+          </mat-card>
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="footer" colspan="3" rowspan="1">
+      <div>
+        <span> <img src="./assets/images/logo-mkp-white.webp" alt="" /></span
+        ><br />
+        <span>Ofrecemos ofertas únicas en </span><br />
+        <span>computadoras, impresoras,</span><br />
+        <span>laptops, notebooks, monitores,</span><br />
+        <span>servidorers, perifricos,</span><br />
+        <span>accesorios , software</span><br />
+        <span>y la especializada zona gamer.</span>
+      </div>
+      <div>
+        <p><strong>Categorias</strong></p>
+        <br />
+        <p>Componentes <br />Zona Gamer <br />Laptos <br />Zona Gamer</p>
+      </div>
+      <div>
+        <p><strong>Terminos</strong></p>
+        <br />
+        <p>
+          Politica de envio<br />Politica de garantia <br />Politica de
+          devoluciones<br />Terminos y Condiciones
+        </p>
+      </div>
+      <div class="redes">
+        <p><strong>Contacto</strong></p>
+
+        <span><mat-icon>phone</mat-icon> +51 987 654 321</span>
+        <p>
+          <a href="#"><mat-icon>mail_outline</mat-icon> contacto@etereo.com</a>
+        </p>
+        <div class="redes">
+          <span
+            ><a href="#"><mat-icon>facebook</mat-icon></a></span
+          >
+          <span
+            ><a href="#"><mat-icon>square-ring</mat-icon></a></span
+          >
+          <span
+            ><a href="#"><mat-icon>audiotrack</mat-icon></a></span
+          >
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
 </section>
