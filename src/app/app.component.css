@@ -222,21 +222,12 @@ img{
 }
 
 .redes p a{
-  color: aliceblue;
-  
-  
-}
-.redes{
-  width: 100%;
+  color: aliceblue;  
 }
 
+
 .redes span a {
-  color: aliceblue;
-  
-  margin-right: 0;
-  
+  color: aliceblue;  
 }
-.redes span a .mat-icom{
-  padding-right: 0.4vw;
-}
+
 
