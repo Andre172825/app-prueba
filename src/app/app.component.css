@@ -78,8 +78,8 @@ img{
     background-color: rgba(209, 199, 199, 0.716);
     margin-bottom: 45px;
     padding-left: 3vw; 
-    padding-top: 2vw;
-    padding-bottom: 4vw;
+    padding-top: 9vw;
+    padding-bottom: 3vw;
   }
 
   h4 {
@@ -90,10 +90,10 @@ img{
   }
   
   .container {
-    width: 87%;
+    width: 100%;
     height: auto;
     margin-inline: auto;
-    font-size: 0.5vw;    
+    font-size: 0.7vw;    
   }
   .information {
     width: 20%;   
@@ -114,7 +114,7 @@ img{
 
   .technical p{
     margin-top: 1vw;
-    font-size: 0.7vw;
+    font-size: 0.8vw;
   }
 
   .access{       
@@ -158,8 +158,8 @@ img{
 
   .star{
     position: absolute;
-    top: 24vw;
-    left: 19vw;
+    top: 27vw;
+    left: 20vw;
     z-index: auto;
     color: gold;
     font-size: 48px;
@@ -219,6 +219,10 @@ img{
 
 .footer strong{
   font-size: 1.3vw;
+}
+
+.redes {
+  width: 100%;
 }
 
 .redes p a{
